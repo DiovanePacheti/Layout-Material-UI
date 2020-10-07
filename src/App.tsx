@@ -2,8 +2,8 @@ import React from 'react';
 import {ThemeProvider, createMuiTheme } from '@material-ui/core';
 import Home from './pages/Home';
 import { theme } from './styles/GlobalStyles';
-import LandingPage from './pages/LandingPage';
-import Corpo from './pages/Corpo';
+import Layout from './pages/Layout';
+
 
 
 
@@ -15,8 +15,7 @@ function App() {
     <ThemeProvider theme={theme}>{/** O Theme Provader envolve a aplicação */}
       {/* <Home /> */}
       <div>
-        <LandingPage />
-        <Corpo />
+        <Layout />
       </div>
     </ThemeProvider>
   );

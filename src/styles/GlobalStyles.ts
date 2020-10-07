@@ -7,7 +7,7 @@ export const theme = createMuiTheme({
       // type:'dark',
 
       primary:{
-        main:'#f44336',
+        main:'#5E6973',
       },
 
       secondary:{
@@ -18,7 +18,7 @@ export const theme = createMuiTheme({
          default:'#78909',
       //   // default:'#232323',
       //   // dark: '#181818',
-         paper:'#000',
+         paper:'#5E6973',
        },
        
     },
